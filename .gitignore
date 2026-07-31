@@ -3,8 +3,8 @@ node_modules
 out
 build
 
-# Ortam değişkenleri — yalnızca .env.local.example depoya girer.
-.env
+# Ortam değişkenleri — .env depoya girer (paylaşılan varsayılanlar),
+# kişisel geçersiz kılmalar .env.local içinde kalır.
 .env.local
 .env*.local
 
