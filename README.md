@@ -5,36 +5,29 @@ the Istanbul Metropolitan Municipality's open **İSPARK** data.
 
 ![İSPARK](https://img.shields.io/badge/İSPARK-live%20data-22c55e) ![Next.js](https://img.shields.io/badge/Next.js-14-black) ![MapLibre](https://img.shields.io/badge/MapLibre-GL-blue) ![Setup](https://img.shields.io/badge/setup-no%20API%20key%20needed-brightgreen)
 
-> The app's interface is in Turkish; this document is in English.
-
 ---
 
 ## 🚀 Quick start
 
-**No API key, account, or configuration required.** Clone, install, run:
+Clone, install, run:
 
 ```bash
-git clone https://github.com/<OlympicCode1>/ispark-otopark-haritasi.git
-cd ispark-otopark-haritasi
+git clone https://github.com/OlympicCode1/ISPARK-AI
+cd ISPARK-AI
 npm install
-npm run dev
+npm run build
+npm run start
 ```
+
+// or skip the build and use npm run dev to kickstart in development environment.
+
 
 Then open **http://localhost:3000**. The map loads straight away with İSPARK's
 live data.
 
 **Requirement:** Node.js **18.17+** (or 20+). Check with `node -v`.
 
-> Why is no key needed? Neither the data source (the İBB open data API) nor the
-> base map (OpenFreeMap) requires authentication. The only optional key is for the
-> [bonus traffic layer](#-bonus-nearby-live-traffic) below.
-
-### Production build
-
-```bash
-npm run build
-npm run start
-```
+> [bonus traffic layer](#-bonus-nearby-live-traffic)
 
 ### Commands
 
@@ -86,6 +79,8 @@ curl -s http://localhost:3000/api/parks/3068 | head -c 300
 ---
 
 ## 🚦 Bonus: nearby live traffic
+
+// I tested with my own google maps api key and it works but I prompt whoever this may concern to place their own api key for obvious reasons.
 
 Selecting a car park opens its detail panel, which includes a live traffic view of
 the streets around it. It is **entirely optional** — without a key the app works in
