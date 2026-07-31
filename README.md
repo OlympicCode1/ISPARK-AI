@@ -14,7 +14,7 @@ the Istanbul Metropolitan Municipality's open **İSPARK** data.
 **No API key, account, or configuration required.** Clone, install, run:
 
 ```bash
-git clone https://github.com/<your-username>/ispark-otopark-haritasi.git
+git clone https://github.com/<OlympicCode1>/ispark-otopark-haritasi.git
 cd ispark-otopark-haritasi
 npm install
 npm run dev
