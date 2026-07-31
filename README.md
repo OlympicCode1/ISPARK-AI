@@ -80,7 +80,7 @@ curl -s http://localhost:3000/api/parks/3068 | head -c 300
 
 ## 🚦 Bonus: nearby live traffic
 
-// I tested with my own google maps api key and it works but I prompt whoever this may concern to place their own api key for obvious reasons.
+// I tested with my own google maps api key and it is in the public repo pls do not abuse it. <3
 
 Selecting a car park opens its detail panel, which includes a live traffic view of
 the streets around it. It is **entirely optional** — without a key the app works in
